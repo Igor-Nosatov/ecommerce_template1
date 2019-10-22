@@ -1,0 +1,30 @@
+
+.newsletter,
+.blog_category,
+.recent_posts,
+.tag_clouds,
+.instagram_feeds,
+.search{
+  padding: 0px $small;
+}
+
+@media (max-width: 991px) {
+  .newsletter,
+  .blog_category,
+  .recent_posts,
+  .tag_clouds,
+  .instagram_feeds,
+  .search{
+    padding: 0px $xs;
+  }
+}
+.recent_post_info{
+  margin-top: $xs;
+  padding-bottom: $xxs;
+  border-bottom: 1px solid $background-color;
+}
+.category_post{
+  padding: $xxs $xs;
+  margin: 2px 0px;
+  border: 1px solid $background-color;
+}

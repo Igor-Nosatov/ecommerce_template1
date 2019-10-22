@@ -1,0 +1,44 @@
+.banner-button{
+  @include btn-basic($btn-color,$black);
+}
+.btn-basic{
+  @include btn-basic($btn-color,$black);
+  margin: 0px $xxs;
+}
+.btn-shop{
+  @include btn-basic($btn-color,$black);
+  margin: 0px;
+}
+
+.btn-aside{
+  @include btn-basic($btn-color,$black);
+  margin: $xxs 0px !important;
+}
+.btn-footer{
+  @include btn-basic($btn-color,$black);
+  margin: 0px 0px;
+}
+.btn-basic1{
+  @include btn-basic($btn-color,$black);
+  margin: 220px 130px 0px !important;
+}
+
+
+.btn-lg{
+  padding-top:$pr75;
+  padding-bottom:$pr10;
+}
+@media (max-width: 991px) {
+  .btn-basic1{
+    @include btn-basic($btn-color,$black);
+    font-weight: bold !important;
+    text-transform: uppercase;
+    margin: 170px 78px !important;
+  }
+  .btn-footer{
+    @include btn-basic($btn-color,$black);
+    margin: $xxs+3 0px;
+    margin-right: $xxs !important;
+  }
+
+}

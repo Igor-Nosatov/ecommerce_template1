@@ -1,0 +1,20 @@
+.navbar,
+.navbar > .container,
+.navbar > .container-fluid {
+  background-color: $navbar-color;
+}
+
+.navbar-brand {
+  font-size: $small+5 !important;
+  @include font-style($black, $bolder, $normal, $normal);
+  text-transform: uppercase;
+  padding-left: $small*2;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: $small*2;
+    padding-left: $small*2;
+    text-transform: uppercase;
+    @include font-style($black, $bolder, $normal, $normal);
+  }
+}

@@ -1,0 +1,21 @@
+h1,h4,h5 {
+  color: $black  !important;
+  font-weight: bolder  !important;
+  margin-top: $xs*3  !important;
+}
+
+@media (max-width: 991px) {
+  h4 {
+    color: $black;
+    margin:  $xxs*4 0 $xxs 0 !important;
+    font-weight: bold !important;
+  }
+}
+
+p {
+  color: $black;
+}
+.carousel-text{
+  color:$white;
+  font-size: $xs*2;
+}

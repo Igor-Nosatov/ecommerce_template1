@@ -1,0 +1,32 @@
+.footer-info{
+  background-color: $background-color;
+padding-bottom: $medium;
+}
+.footer-list{
+  margin-left: $pr5;
+}
+.footer-list1{
+  margin-left: 0%;
+}
+.footer-form{
+  margin-left: 15%;
+}
+.border-bottom-footer{
+  border-bottom: 1px solid $black !important;
+  padding-bottom: $xxs*3;
+}
+@media (max-width: 991px) {
+  footer{
+      background-color: $background-color;
+  }
+  .footer-list{
+    margin-left: 2%;
+  }
+  .footer-list1{
+    margin-left: 0%;
+  }
+  .footer-form{
+    margin-top: 5%;
+    margin-left: 0%;
+  }
+}

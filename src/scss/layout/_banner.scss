@@ -1,0 +1,23 @@
+.banner {
+  height: auto;
+}
+
+.border-banner {
+  border-left: 1px solid $navbar-color;
+  border-top: 1px solid $navbar-color;
+  border-bottom: 1px solid $navbar-color;
+}
+.banner-info{
+  padding-top: $pr25;
+}
+@media (max-width: 991px) {
+  .border-banner {
+    border-left: 0px solid $navbar-color;
+    border-top: 0px solid $navbar-color;
+    border-bottom: 0px solid $navbar-color;
+  }
+  .banner-info{
+    padding-top: $small;
+    padding-bottom: $small;
+  }
+}

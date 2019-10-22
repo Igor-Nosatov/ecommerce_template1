@@ -1,0 +1,32 @@
+.tag_post{
+  padding: $xs/2;
+  margin: 3px 2px;
+  border: $xs/10 solid $background-color;
+  background-color: $background-color;
+  color:$black !important;
+}
+
+.confirmation_message{
+    @include border(1px, solid, $navbar-color);
+    margin-top: $xs;
+    margin-right: $xs*2;
+    margin-left: $xs;
+    padding: $xs*2;
+    background: $navbar-color;
+    border-radius: $xs*2+5;
+    margin-bottom: $large;
+}
+.ask_message{
+  padding: $large*3 $large;
+  border-left:1px solid  $navbar-color;
+  border-bottom:1px solid  $navbar-color;
+  border-top:1px solid  $navbar-color;
+  background: $navbar-color;
+}
+
+.enter_form{
+  border-right:1px solid  $navbar-color;
+  border-bottom:1px solid  $navbar-color;
+  border-top:1px solid  $navbar-color;
+  padding: $large+25px $large;
+}
