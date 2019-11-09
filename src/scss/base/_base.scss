@@ -1,9 +1,12 @@
-a{
-  color:$black !important;
+ul{
+  list-style-type: none !important;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right:0 !important;
-    margin-left:0 !important;
+a {
+    text-decoration: none !important;
+    color:$black;
+}
+
+.card{
+  padding:($x-size)-1;
+  border:none !important;
 }

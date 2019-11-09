@@ -1,8 +1,0 @@
-.category_area,
-.filter_area {
-  @include border(1px, solid, $navbar-color);
-  margin-top: $xs;
-  margin-right: $xs*2;
-  margin-left: $xs;
-  padding: $xs*2;
-}

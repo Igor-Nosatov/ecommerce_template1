@@ -17808,20 +17808,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-jquery__WEBPACK_IMPORTED_MODULE_0___default()(function() {
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()("body").css("color", "blue");
-});
-
-
-
-let slider = document.getElementById("myRange");
-let output = document.getElementById("demo");
-output.innerHTML = slider.value;
-
-slider.oninput = function() {
-  output.innerHTML = this.value;
-}
-
 
 /***/ }),
 

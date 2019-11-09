@@ -1,20 +1,14 @@
-.product_area{
-  width:35%;
+
+.examples__products{
+
+  margin-top: 15px;
+}
+.cart-image{
+  width:($bg-size*2);
+  height: ($bg-size*2);
 }
 
-.top_product_image{
- @include box(70px, 70px)
-}
-
-.top_product_image1{
-  background-image: url(../img/ch1.jpeg);
-  background-size: cover;
-  height: $xlarge*3;
-  width:  $xlarge*3;
-  margin: $xs 0px;
-}
-
-.img-brand{
-  height: $xlarge;
-  width: $xlarge;
+.wishlist-image{
+  width:($bg-size*2);
+  height: ($bg-size*2);
 }

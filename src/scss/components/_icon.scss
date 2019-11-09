@@ -1,46 +1,44 @@
-.nav-icon {
-  color: $black;
-  padding-right: $small;
+.fas,
+.far,
+.fab{
+  padding-right: $x-size;
 }
-
-.fa-check-circle {
-  color:$green;
-  margin-top: 10%;
+.fa-calendar-week,
+.fa-eye,
+.fa-comment{
+  margin-left: ($x-size)-2px;
+  margin-right:  ($x-size)-2px;
 }
-
-.fa-chevron-left,
-.fa-chevron-right {
-  color: $carousel-text-color;
+.fa-calendar-week{
+color:$light-grey;
+}
+.fa-eye{
+  color:$light-blue;
 }
 .fa-star{
   color:$yellow;
 }
-.fa-facebook-f {
-  color: $facebook-cl;
-  text-shadow: 2px 2px;
+.fa-comment{
+  color:$orange;
 }
-
-.fa-twitter {
-  color: $twitter-cl;
-  text-shadow: 2px 2px;
+.shop-icon{
+  display: flex;
+  flex-direction: row;
 }
-
-.fa-instagram {
-  color: $instagram-cl;
-  text-shadow: 2px 2px;
-}
-
-.fa-user-alt{
-  color:$twitter-cl;
-}
-.fa-comments{
-color:$instagram-cl;
-}
-
-@media (max-width: 991px) {
-
-  .footer-icon{
-    margin-left: 0%;
+@media screen and (max-width: 960px) {
+  .shop-icon{
+    display: flex !important;
+    flex-direction: column !important;
   }
 
 }
+
+.aside-social-link{
+  margin-left: 23%;
+}
+ .footer-icon{
+   padding: ($x-size)+2px;
+   background-color: $white;
+   border-radius: 100%;
+   margin: ($x-size)-4px;
+ }

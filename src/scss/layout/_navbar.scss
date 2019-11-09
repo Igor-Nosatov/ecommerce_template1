@@ -1,20 +1,35 @@
-.navbar,
-.navbar > .container,
-.navbar > .container-fluid {
-  background-color: $navbar-color;
+
+
+
+.nav-item>.nav-link{
+    text-transform: capitalize;
+    color: $black!important;
+    font-family: 'Lato', sans-serif;
 }
 
-.navbar-brand {
-  font-size: $small+5 !important;
-  @include font-style($black, $bolder, $normal, $normal);
-  text-transform: uppercase;
-  padding-left: $small*2;
+.nav-item-header>.nav-link-header {
+    display: inline-block;
+    font-weight: bold;
+    font-size: ($x-size)+12px;
+    letter-spacing: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
-@media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: $small*2;
-    padding-left: $small*2;
-    text-transform: uppercase;
-    @include font-style($black, $bolder, $normal, $normal);
-  }
+
+.number-of-product{
+  border:none;
+  padding:($x-size)-5px;
+  background-color: $blue;
+  color:$black;
+  font-size: ($x-size)-2px;
+  border-radius: 100%;
+  margin-bottom: $x-size;
+  position: relative;
+  bottom: ($x-size*2);
+  right: ($x-size*2);
+}
+
+.logo {
+    width: 110px;
+    height: 65px;
 }

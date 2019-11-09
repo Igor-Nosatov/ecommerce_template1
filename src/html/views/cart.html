@@ -1,203 +1,338 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>Nordic Furniture</title>
   <link rel="stylesheet" href="css/style.bundle.css" />
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
-  <header>
-    <div class="row no-gutters mb-2">
-      <div class="col-lg-8 offset-lg-2">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Asia Style</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign In</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-search fa-lg nav-icon"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-shopping-bag fa-lg nav-icon"></i></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <section="breadcrumb-banner">
-    <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Cart</li>
-          </ol>
-        </nav>
-      </div>
-    </div>
-  </section>
-  <section class="cart_area">
-    <div class="row no-gutters">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-8">
-        <div class="table-responsive mb-5">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">Product</th>
-                <th scope="col">Price</th>
-                <th scope="col">Qty</th>
-                <th scope="col">Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th class="product_area">
-                  <div class="d-flex flex-row">
-                    <div><img src="./img/cart3.png" alt="" class="img-fluid"></div>
-                    <div>
-                      <p>Minimalistic shop</p>
-                    </div>
-                  </div>
-                </th>
-                <td>$655</td>
-                <td><input type="number" value="1" min="1" max="19"></td>
-                <td>$1310</td>
-              </tr>
-              <tr>
-                <th class="product_area">
-                  <div class="d-flex flex-row">
-                    <div><img src="./img/cart3.png" alt="" class="img-fluid"></div>
-                    <div>
-                      <p>Minimalistic shop</p>
-                    </div>
-                  </div>
-                </th>
-                <td>$655</td>
-                <td><input type="number" value="1" min="1" max="19"></td>
-                <td>$1310</td>
-              </tr>
-              <tr>
-                <th class="product_area">
-                  <div class="d-flex flex-row">
-                    <div><img src="./img/cart3.png" alt="" class="img-fluid"></div>
-                    <div>
-                      <p class="ml-2 text-justify text-dark">Minimalistic shop</p>
-                    </div>
-                  </div>
-                </th>
-                <td>$655</td>
-                <td><input type="number" value="1" min="1" max="19"></td>
-                <td>$1310</td>
-              </tr>
-              <tr>
-                <th></th>
-                <td></td>
-                <td> <button class="btn btn-basic ">Shopping</button></td>
-                <td><button class="btn btn-basic ">Checkout</button></td>
-              </tr>
-            </tbody>
-          </table>
+  <header class="header">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item active nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Home</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Shop</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Blog</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Login</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Contact</a>
+                </li>
+              </ul>
+              <ul class="nav shop-icon">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-search fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-bag fa-lg"></i><span class="number-of-product">12</span></a>
+                </li>
+              </ul>
+              <button class="button-header">Buy Now</button>
+            </div>
+          </nav>
         </div>
-        <hr>
       </div>
     </div>
-    <div class="col-lg-2"></div>
+
+  </header>
+  <section class="breadcrumbs">
+    <div class="row no-gutters">
+      <div class="col-sm-12 col-lg-12">
+        <h3 class="breadcrumbs__header">Cart</h3>
+        <p class="breadcrumbs__text">Home - Cart</p>
+      </div>
     </div>
   </section>
-  <footer>
-    <div class="row no-gutters  ">
-      <div class="col-lg-8 offset-lg-2 footer-info">
-        <div class="row no-gutters  ">
-          <div class="col-lg-2 col-md-2 col-sm-6 col-6">
-            <h4 class="border-bottom-footer ml-2">Category</h4>
-            <ul class="nav flex-column footer-list">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Male</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Female</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fashion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
-              </li>
-            </ul>
+  <section class="cart-area">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class=" col-sm-12 col-lg-12">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="product-column">
+                    <h6 class="text-center font-weight-bold text-secondary">Product</h6>
+                  </th>
+                  <th scope="col" class="price-column">
+                    <h6 class="text-center font-weight-bold text-secondary">Price</h6>
+                  </th>
+                  <th scope="col" class="quantity-column">
+                    <h6 class="text-center font-weight-bold text-secondary">Quantity</h6>
+                  </th>
+                  <th scope="col" class="total-price-column">
+                    <h6 class="text-center font-weight-bold text-secondary">Total</h6>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="product-column">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <img src="./img/product/1.jpg" alt="" class="cart-image">
+                      </div>
+                      <div>
+                        <p class="pt-5 pb-3 pl-2 text-justify">Minimalistic shop for multipurpose use</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$360.00</h5>
+                  </td>
+                  <td class="quantity-column">
+                    <div class="product_count pt-5 pb-3">
+                      <input type="number" min="1" max="100" value="1" class="input-text qty"></div>
+                  </td>
+                  <td class="total-price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$720.00</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="product-column">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <img src="./img/product/1.jpg" alt="" class="cart-image">
+                      </div>
+                      <div>
+                        <p class="pt-5 pb-3 pl-2 text-justify">Minimalistic shop for multipurpose use</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$360.00</h5>
+                  </td>
+                  <td class="quantity-column">
+                    <div class="product_count pt-5 pb-3">
+                      <input type="number" min="1" max="100" value="1" class="input-text qty"></div>
+                  </td>
+                  <td class="total-price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$720.00</h5>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="product-column">
+                    <div class="d-flex flex-row">
+                      <div>
+                        <img src="./img/product/1.jpg" alt="" class="cart-image">
+                      </div>
+                      <div>
+                        <p class="pt-5 pb-3 pl-2 text-justify">Minimalistic shop for multipurpose use</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$360.00</h5>
+                  </td>
+                  <td class="quantity-column">
+                    <div class="product_count pt-5 pb-3">
+                      <input type="number" min="1" max="100" value="1" class="input-text qty"></div>
+                  </td>
+                  <td class="total-price-column">
+                    <h5 class="text-center font-weight-bold pt-5 pb-3 pl-2 ">$720.00</h5>
+                  </td>
+                </tr>
+                <tr class="bottom_button">
+                  <td>
+                    <a class="button" href="#">Update Cart</a>
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    <div class="cupon_text d-flex align-items-center">
+                      <input type="text" class="cart-form-control" placeholder="Coupon">
+                      <button class="form-button" href="#">Apply</button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+                    <h6 class="text-center font-weight-bold text-secondary">Subtotal</h6>
+                  </td>
+                  <td>
+                    <h6 class="text-center font-weight-bold text-secondary">$2160.00</h6>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="d-none d-md-block">
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                    <h6 class="text-center font-weight-bold text-secondary">Shipping</h6>
+                  </td>
+                  <td>
+                    <div class="shipping_box">
+                      <ul class="list">
+                        <li><a href="#">Flat Rate: $5.00</a></li>
+                        <li><a href="#">Free Shipping</a></li>
+                        <li><a href="#">Flat Rate: $10.00</a></li>
+                        <li class="active"><a href="#">Local Delivery: $2.00</a></li>
+                      </ul>
+                      <h6>Calculate Shipping <i class="fa fa-caret-down" aria-hidden="true"></i></h6>
+                      <select class="select-button">
+                        <option value="1">USA</option>
+                        <option value="2">Ukraine</option>
+                        <option value="4">England</option>
+                      </select>
+                      <select class="select-button">
+                        <option value="1">Select a State</option>
+                        <option value="2">Select a State</option>
+                        <option value="4">Select a State</option>
+                      </select>
+                      <input type="text" class="zip-form-control" placeholder="Postcode/Zipcode">
+                    </div>
+                  </td>
+                </tr>
+                <tr class="out_button_area">
+                  <td class="d-none-l">
+
+                  </td>
+                  <td class="">
+
+                  </td>
+                  <td>
+                    <div class=" d-flex align-items-center">
+                      <a class="cart-button text-center" href="#">Continue</a>
+                    </div>
+                  </td>
+                  <td>
+                    <div class=" d-flex align-items-center">
+                      <a class="cart-button" href="#">Proceed</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="col-lg-2 col-md-2 col-sm-6 col-6">
-            <h4 class="border-bottom-footer ml-2">Company</h4>
-            <ul class="nav flex-column footer-list">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-            <h4 class="border-bottom-footer ml-2">Address</h4>
-            <ul class="nav flex-column footer-list1">
-              <li class="nav-item">
-                <a class="nav-link" href="#">200, Green block, NewYork</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">+10 111 267 1111</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact@Contact.com</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-            <h4 class="border-bottom-footer ml-2">Newsletter</h4>
-            <form class="form-inline footer-form ml-2">
-              <div class="input-group mb-2 mr-sm-2">
-                <input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Enter Email">
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-footer mb-2">Submit</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-lg-5">
+          <h4 class="footer-header">Our Mission</h4>
+          <img src="./img/footer.jpeg" alt="" class="footer-image mb-3">
+          <p class="text-white text-justify">Nordic Furniture today is one of the most respected and
+            admired home furnishings companies in the world.</p>
+          <p class="text-white text-justify" >Our dining, bedroom, home entertainment, home office and accent furniture
+            is distinguished by beautiful quality craftsmanship and functional features to make your
+            life easier.</p>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h4 class="footer-header">Quick Links</h4>
+          <ul class="nav flex-column font-weight-bold  text-dark">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Checkout</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h4 class="footer-header">Company</h4>
+          <ul class="nav flex-column font-weight-bold text-dark">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cookie Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help Center</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <h4 class="footer-header">Contact Us</h4>
+          <ul class="nav">
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="fas fa-location-arrow fa-lg  footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> 233, Main Street, Kiev, Ukraine</span>
+                  </div>
                 </div>
-              </div>
-            </form>
-            <nav class="nav footer-icon">
-              <a class="nav-link" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-              <a class="nav-link" href="#"><i class="fab fa-twitter  fa-2x"></i></a>
-              <a class="nav-link" href="#"><i class="fab fa-instagram  fa-2x"></i></a>
-            </nav>
-          </div>
+              </a>
+            </li>
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="fas fa-phone fa-lg  footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> +044 456 4567 </span> <br>
+                    <span class="text-lowercase"> +098 456 8342 </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="far fa-envelope fa-lg footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> www.nordic.com</span><br>
+                    <span class="text-lowercase"> www.nordic-furniture.com</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

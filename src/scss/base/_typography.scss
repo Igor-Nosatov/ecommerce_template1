@@ -1,21 +1,18 @@
-h1,h4,h5 {
-  color: $black  !important;
-  font-weight: bolder  !important;
-  margin-top: $xs*3  !important;
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face{
+  font-family: 'Lato', sans-serif;
+  src: url("../fonts/Lato-Regular.ttf");
 }
 
-@media (max-width: 991px) {
-  h4 {
-    color: $black;
-    margin:  $xxs*4 0 $xxs 0 !important;
-    font-weight: bold !important;
-  }
-}
 
-p {
+
+
+.latest-news__header {
+  margin-top:$bg-size;
+  text-transform: uppercase;
   color: $black;
-}
-.carousel-text{
-  color:$white;
-  font-size: $xs*2;
+  font-weight: bold;
 }

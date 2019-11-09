@@ -1,314 +1,421 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
+  <title>Nordic Furniture</title>
   <link rel="stylesheet" href="css/style.bundle.css" />
+  <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
-  <header>
-    <div class="row no-gutters ">
-      <div class="col-lg-8 offset-lg-2">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#">Asia Style</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shop</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign In</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-            <ul class="nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-search fa-lg nav-icon"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-shopping-bag fa-lg nav-icon"></i></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <section class="banner mb-5">
-    <div class="row no-gutters my-3">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-4 border-banner">
-        <div class="banner-info">
-          <h5 class="text-center mt-5 mb-2 font-weight-bold text-body">Asia Fashion</h5>
-          <h1 class="text-center my-2 font-weight-bold text-uppercase text-body">Fashion Collection</h1>
-          <div class="d-flex justify-content-center">
-            <div><a href="" class="btn banner-button my-2 btn-lg text-dark mx-auto">Buy Now</a></div>
-          </div>
+  <header class="header">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-bars fa-lg"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item active nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Home</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Shop</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Blog</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Login</a>
+                </li>
+                <li class="nav-item nav-item-header">
+                  <a class="nav-link nav-link-header" href="#">Contact</a>
+                </li>
+              </ul>
+              <ul class="nav shop-icon">
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-search fa-lg"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-bag fa-lg"></i><span class="number-of-product">12</span></a>
+                </li>
+              </ul>
+              <button class="button-header">Buy Now</button>
+            </div>
+          </nav>
         </div>
       </div>
-      <div class="col-lg-4">
-        <img src="./img/4.jpeg" alt="" class="img-fluid h-100 w-100">
+    </div>
+
+  </header>
+  <section class="banner">
+    <div class="row no-gutters">
+      <div class="col-12 col-sm-12 col-lg-5 banner__part-one">
+        <img src="./img/slide.jpeg" alt="banner-image" class="img-fluid w-100">
       </div>
-      <div class="col-lg-2"></div>
+      <div class="col-12 col-sm-12 col-lg-7 banner__part-two">
+        <h4 class="banner__sub-header">Shop is fun</h4>
+        <h1 class="banner__header">BROWSE OUR <br> PREMIUM PRODUCT</h1>
+        <p class="banner__text">Us which over of signs divide dominion deep fill bring they're meat
+          beho<br>upon own earth without morning over third.
+          Their male dry. They are great<br> appear whose land fly grass.</p>
+        <button class="banner__button">Browse Now</button>
+      </div>
     </div>
   </section>
-  <section class="new_products my-5">
+  <section class="examples">
     <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <h3 class="text-uppercase font-weight-bold text-dark ml-2">New products</h3>
-        <hr>
+      <div class="col-sm-6 col-lg-3">
+        <img src="./img/product/1.jpg" alt="" class="img-fluid examples__products">
+        <div class="slide-overlay">
+          <a href="">
+            <h3 class="slide-overlay__header">Wireless Headphone</h3>
+          </a>
+          <a href="">
+            <p class="slide-overlay__text">Accessories Item</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <img src="./img/product/7.jpg" alt="" class="img-fluid examples__products">
+        <div class="slide-overlay">
+          <a href="">
+            <h3 class="slide-overlay__header">Wireless Headphone</h3>
+          </a>
+          <a href="">
+            <p class="slide-overlay__text">Accessories Item</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <img src="./img/product/3.jpg" alt="" class="img-fluid examples__products">
+        <div class="slide-overlay">
+          <a href="">
+            <h3 class="slide-overlay__header">Wireless Headphone</h3>
+          </a>
+          <a href="">
+            <p class="slide-overlay__text">Accessories Item</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+        <img src="./img/product/4.jpg" alt="" class="img-fluid examples__products">
+        <div class="slide-overlay">
+          <a href="">
+            <h3 class="slide-overlay__header">Wireless Headphone</h3>
+          </a>
+          <a href="">
+            <p class="slide-overlay__text">Accessories Item</p>
+          </a>
+        </div>
       </div>
     </div>
-    <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <div class="row no-gutters">
-          <div class="col-lg-12">
-            <div class="bd-example">
-              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/1.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1 class="font-weight-bold text-uppercase">Asia style</h1>
-                      <p class="carousel-text font-weight-bold text-uppercase">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/2.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1 class="font-weight-bold text-uppercase">Asia style</h1>
-                      <p class="carousel-text font-weight-bold text-uppercase">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/3.jpeg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h1 class="font-weight-bold text-uppercase">Asia style</h1>
-                      <p class="carousel-text font-weight-bold text-uppercase">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </div>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                  <i class="fas fa-chevron-left  fa-2x"></i>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                  <i class="fas fa-chevron-right fa-2x"></i>
-                </a>
-              </div>
+  </section>
+  <section class="trending-products">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <small class="trending-products__sub-header">Popular Item in the market</small>
+          <h2 class="trending-products__header">Trending <span class="blue-line">Product</span></h2>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="service my-5">
-    <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <h3 class="text-uppercase font-weight-bold text-dark ml-2">Our Services</h3>
-        <hr>
-      </div>
-    </div <div class="row no-gutters ">
-    <div class="col-lg-8 offset-lg-2">
-      <div class="row no-gutters ">
-        <div class="col-lg-3">
-          <ul class="nav flex-column m-1">
-            <li class="nav-item">
-              <i class="fas fa-car  fa-2x text-info"></i>
-            </li>
-            <li class="nav-item">
-              <h5>Free shipping</h5>
-            </li>
-            <li class="nav-item">
-              <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <ul class="nav flex-column  m-1">
-            <li class="nav-item">
-              <i class="far fa-credit-card fa-2x text-success"></i>
-            </li>
-            <li class="nav-item">
-              <h5>Free shipping</h5>
-            </li>
-            <li class="nav-item">
-              <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <ul class="nav flex-column  m-1">
-            <li class="nav-item">
-              <i class="fas fa-mug-hot fa-2x text-warning"></i>
-            </li>
-            <li class="nav-item">
-              <h5>Free shipping</h5>
-            </li>
-            <li class="nav-item">
-              <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3">
-          <ul class="nav flex-column  m-1">
-            <li class="nav-item">
-              <i class="fas fa-blender-phone fa-2x text-danger"></i>
-            </li>
-            <li class="nav-item">
-              <h5>Free shipping</h5>
-            </li>
-            <li class="nav-item">
-              <p>Divided face for bearing the divide unto seed winged divided light Forth.</p>
-            </li>
-          </ul>
+  <section class="shop-offer">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-lg-4">
+          <h2 class="shop-offer__header">Up To 50% Off</h2>
+          <h4 class="shop-offer__sub-header">Winter Sale</h4>
+          <p class="text-center">Him she'd let them sixth saw light</p>
+          <button class="shop-offer__button">Shop Now</button>
         </div>
       </div>
-    </div>
     </div>
   </section>
-  <section class="top_product my-5">
-    <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <h3 class="text-uppercase font-weight-bold text-dark ml-2">Top products</h3>
-        <hr>
+  <section class="best-sellers">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-12">
+          <h2 class="best-sellers__header mt-5">Best <span class="blue-line">Sellers</span></h2>
+          <small>Popular Item in the market</small>
+        </div>
       </div>
-    </div>
-    <div class="row no-gutters ">
-      <div class="col-lg-8  offset-lg-2">
-        <div class="d-flex flex-row flex-wrap">
-          <div class="flex-fill top_product_image1 ml-3 mr-3">
-            <a href="" class="btn btn-basic1 btn-lg ">Buy Now</a>
+      <div class="row no-gutters">
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+
+            </div>
           </div>
-          <div class="flex-fill top_product_image1 ml-3 mr-3">
-            <a href="" class="btn btn-basic1 btn-lg ">Buy Now</a>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+            </div>
           </div>
-          <div class="flex-fill top_product_image1 ml-3 mr-3">
-            <a href="" class="btn btn-basic1 btn-lg">Buy Now</a>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/product/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <small class="card__sub-header">Accessories</small>
+              <a href="#" class="">
+                <h5 class="card__header">Quartz Belt Watch</h5>
+              </a>
+              <p class="card__text">$150.00</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="brands my-5">
-    <div class="row no-gutters">
-      <div class="col-lg-8 offset-lg-2">
-        <h3 class="text-uppercase font-weight-bold text-dark ml-2">Our Brands</h3>
-        <hr>
-      </div>
-    </div <div class="row no-gutters ">
-    <div class="col-lg-8 offset-lg-2">
-      <div class="row no-gutters ">
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/adobe.svg" alt="" class="img-brand  m-1">
-        </div>
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/gatsby.svg" alt="" class="img-brand  m-1">
-        </div>
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/kaios.svg" alt="" class="img-brand  m-1">
-        </div>
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/me.svg" alt="" class="img-brand  m-1">
-        </div>
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/scaleway.svg" alt="" class="img-brand m-1">
-        </div>
-        <div class=" col-4 col-sm-4 col-md-2 col-lg-2">
-          <img src="./img/brand/slack.svg" alt="" class="img-brand  m-1">
+  <section class="latest-news">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-lg-12">
+          <h2 class="latest-news__header">Latest <span class="blue-line">News</span></h2>
+          <small>Popular Item in the market</small>
         </div>
       </div>
-    </div>
-    <div class="col-lg-2"></div>
+      <div class="row no-gutters">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/bl1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Richland Center Shooping News and weekly shooper</h5>
+              <p class="card-text">Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/bl2.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Richland Center Shooping News and weekly shooper</h5>
+              <p class="card-text">Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/bl3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Richland Center Shooping News and weekly shooper</h5>
+              <p class="card-text">Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+            <img src="./img/bl4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Richland Center Shooping News and weekly shooper</h5>
+              <p class="card-text">Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  <footer>
-    <div class="row no-gutters  ">
-      <div class="col-lg-8 offset-lg-2 footer-info">
-        <div class="row no-gutters  ">
-          <div class="col-lg-2 col-md-2 col-sm-6 col-6">
-            <h4 class="border-bottom-footer ml-2">Category</h4>
-            <ul class="nav flex-column footer-list">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Male</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Female</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Fashion</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-6 col-6">
-            <h4 class="border-bottom-footer ml-2">Company</h4>
-            <ul class="nav flex-column footer-list">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-            <h4 class="border-bottom-footer ml-2">Address</h4>
-            <ul class="nav flex-column footer-list1">
-              <li class="nav-item">
-                <a class="nav-link" href="#">200, Green block, NewYork</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">+10 111 267 1111</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact@Contact.com</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-            <h4 class="border-bottom-footer ml-2">Newsletter</h4>
-            <form class="form-inline footer-form ml-2">
-              <div class="input-group mb-2 mr-sm-2">
-                <input type="email" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Enter Email">
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-footer mb-2">Submit</button>
+  <section class="subscribe-area">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-lg-6">
+          <h3 class="subscribe-area__header text-uppercase font-weight-bold text-center">GET UPDATE FROM ANYWHERE</h3>
+          <p class="text-secondary text-center">Bearing Void gathering light light his eavening unto dont afraid</p>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <form class="form-inline">
+            <div class="form-group">
+              <input type="text" class="form-control w-100"  value="email@example.com">
+            </div>
+            <button type="submit" class="subscribe-area__button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-sm-12 col-lg-5">
+          <h4 class="footer-header">Our Mission</h4>
+          <img src="./img/footer.jpeg" alt="" class="footer-image mb-3">
+          <p class="text-white text-justify">Nordic Furniture today is one of the most respected and
+            admired home furnishings companies in the world.</p>
+          <p class="text-white text-justify" >Our dining, bedroom, home entertainment, home office and accent furniture
+            is distinguished by beautiful quality craftsmanship and functional features to make your
+            life easier.</p>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h4 class="footer-header">Quick Links</h4>
+          <ul class="nav flex-column font-weight-bold  text-dark">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Checkout</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h4 class="footer-header">Company</h4>
+          <ul class="nav flex-column font-weight-bold text-dark">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cookie Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help Center</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <h4 class="footer-header">Contact Us</h4>
+          <ul class="nav">
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="fas fa-location-arrow fa-lg  footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> 233, Main Street, Kiev, Ukraine</span>
+                  </div>
                 </div>
-              </div>
-            </form>
-            <nav class="nav footer-icon">
-              <a class="nav-link" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
-              <a class="nav-link" href="#"><i class="fab fa-twitter  fa-2x"></i></a>
-              <a class="nav-link" href="#"><i class="fab fa-instagram  fa-2x"></i></a>
-            </nav>
-          </div>
+              </a>
+            </li>
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="fas fa-phone fa-lg  footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> +044 456 4567 </span> <br>
+                    <span class="text-lowercase"> +098 456 8342 </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item  text-dark">
+              <a class="nav-link" href="#">
+                <div class="d-flex flex-row">
+                  <div>
+                    <i class="far fa-envelope fa-lg footer-icon"></i>
+                  </div>
+                  <div>
+                    <span class="text-lowercase"> www.nordic.com</span><br>
+                    <span class="text-lowercase"> www.nordic-furniture.com</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
